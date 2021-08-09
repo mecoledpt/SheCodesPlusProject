@@ -28,6 +28,10 @@ small {
   font-size: 0.5em;
   font-weight: 400;
 }
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+}
 
 input {
   min-width: 175px;
