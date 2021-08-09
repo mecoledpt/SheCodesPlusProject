@@ -28,7 +28,7 @@ small {
   font-size: 0.5em;
   font-weight: 400;
 }
-input#city-search-input {
+input {
   min-width: 175px;
   max-width: 300px;
   height: 40px;
@@ -38,11 +38,11 @@ button {
   height: 40px;
   border-radius: 4px;
 }
-button#locate-btn {
+button.locate {
   background-color: rgb(235, 110, 75);
 }
 i.fa-umbrella {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 .curr-temp {
   font-size: 2.8rem;
@@ -61,7 +61,7 @@ i.fa-umbrella {
 .date {
   display: inline-block;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 800;
 }
 
@@ -71,12 +71,12 @@ i.fa-umbrella {
 }
 .card-body {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 300;
-  text-align: justify;
+  text-align: center;
 }
 i.fa-thermometer-half {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   padding-right: 0.5rem;
 }
 
